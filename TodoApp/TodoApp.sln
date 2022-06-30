@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2F3B54D8-F088-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{99381EF4-6342-4A72-BA87-A1207432C889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleAppFile", "..\TodoApp.ConsoleAppFile\TodoApp.ConsoleAppFile.csproj", "{3BE8E344-F420-4A20-B6DB-30111882BD2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleAppFile", "..\TodoApp.ConsoleAppFile\TodoApp.ConsoleAppFile.csproj", "{3BE8E344-F420-4A20-B6DB-30111882BD2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.WinFormsApp", "TodoApp.WinFormsApp\TodoApp.WinFormsApp.csproj", "{3BEE1ABC-9CAA-42B5-813A-631BE57CBAB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{3BE8E344-F420-4A20-B6DB-30111882BD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BE8E344-F420-4A20-B6DB-30111882BD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BE8E344-F420-4A20-B6DB-30111882BD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEE1ABC-9CAA-42B5-813A-631BE57CBAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEE1ABC-9CAA-42B5-813A-631BE57CBAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEE1ABC-9CAA-42B5-813A-631BE57CBAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEE1ABC-9CAA-42B5-813A-631BE57CBAB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{99381EF4-6342-4A72-BA87-A1207432C889} = {2F3B54D8-F088-4A58-89E4-4CED33A78EE1}
 		{3BE8E344-F420-4A20-B6DB-30111882BD2C} = {2F3B54D8-F088-4A58-89E4-4CED33A78EE1}
+		{3BEE1ABC-9CAA-42B5-813A-631BE57CBAB8} = {2F3B54D8-F088-4A58-89E4-4CED33A78EE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34B52866-9244-4B54-9CE8-CB0EA6DC0826}
